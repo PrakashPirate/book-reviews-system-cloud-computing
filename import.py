@@ -7,8 +7,8 @@ from sqlalchemy.exc import DataError
 from sqlalchemy.exc import InternalError
 from sqlalchemy.exc import IntegrityError
 
-engine = create_engine('postgres://hbohcwbaukrfpj:7e99e59537a38c868085aec082c903eecf2f63b3aa426162615012dc98c93ceb'
-                       '@ec2-54-152-175-141.compute-1.amazonaws.com:5432/d34ung0btlp93t', pool_pre_ping=True)
+engine = create_engine('postgres://gqeseiktebkawj:94615bf7ec3303dbd3bf5619ce943aebe812e9b38ee72cbfc5cca18ee6b6fc43'
+                       '@ec2-52-70-186-184.compute-1.amazonaws.com:5432/d1nhvkoj5qfrdj', pool_pre_ping=True)
 db = scoped_session(sessionmaker(bind=engine))
 
 
